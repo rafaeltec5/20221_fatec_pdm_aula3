@@ -1,8 +1,9 @@
 //começando...
-const nome = 'José'
-const idade = 27
-
-let a = 2
-let b = 'abc'
-let endereco = 'Rua K, 23'
-
+var idade = 18
+console.log("01, " + nome)
+if (idade >= 18){
+    var nome = "João"
+    console.log("Parabéns, " + nome + ". Você pode dirigir.")
+    console.log(`Parabéns, ${nome}. Você pode dirigir.`)
+}
+console.log(`Até mais, ${nome}`)
