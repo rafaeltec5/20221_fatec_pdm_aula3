@@ -1,9 +1,8 @@
 //começando...
-var idade = 18
-console.log("01, " + nome)
-if (idade >= 18){
-    var nome = "João"
-    console.log("Parabéns, " + nome + ". Você pode dirigir.")
-    console.log(`Parabéns, ${nome}. Você pode dirigir.`)
-}
-console.log(`Até mais, ${nome}`)
+console.log (1 == 1)
+console.log (1 == '1')
+console.log (1 === '1')
+console.log (0.1 + 0.2 == 0.3)
+console.log ((0.1 + 0.2).toFixed(1) === (0.3).toFixed(1))
+console.log ((0.1 + 0.2).toFixed(1))
+console.log (0.3)
